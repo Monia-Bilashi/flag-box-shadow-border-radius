@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-box {
+    background-color: tomato;
+    height: 50px;
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+.sub-box-1st {
+    background-color: teal;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: -3px 0px 1px -1px black, black 2px 0px 0px 0px;
+}
+
+.sub-box-2nd {
+    background-color: lightpink;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: 0px -3px 1px -1px blueviolet, blue 0px 2px 0px 0px;
+}
+
+.green {
+    height: 100px;
+    width: 250px;
+    background: green;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.red {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.shape {
+    height: 100px;
+    width: 250px;
+    background: hotpink;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 10px 30px 40px 0px;
+    box-shadow: 0px -3px 1px -1px rgb(73, 79, 18), rgb(0, 255, 94) 0px 2px 0px 0px;
+}
